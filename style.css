@@ -35,21 +35,24 @@ nav a {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-    margin: 50px;
+    gap: 0px;
+    margin: 40px 50px;
     height: 70vh;
+    /* grid-template-columns: 20% 30%  ; */
 }
 
 
 .container_item_one {
-    text-align: left;
+    width: 80%;
+    /* text-align: left; */
+    margin-left:0;
 }
 
 .container_item_one h3 {
     font-size: 40px;
-    color: white;
+    color: orange;
+    font-style: italic;
 }
 
 .container_item_one .p1 {
@@ -61,7 +64,22 @@ nav a {
     font-size: 16px;
     color: white;
 }
+.buttons input{
+    padding:10px 20px;
+    border-radius:20px;
+}
 
+.b1{
+    background-color: orange;
+    color: black;
+
+}
+.b2{
+    background-color: transparent;
+    color: white;
+
+
+}
 
 
 .container_item_two {
